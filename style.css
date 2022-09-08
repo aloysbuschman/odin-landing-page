@@ -33,3 +33,40 @@ nav a {
 nav a:visited {
     color: #E5E7EB;
 }
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 60px 90px;
+    gap: 15px;
+}
+
+.hero-section .content-left,
+.hero-section .content-right {
+    flex: 1;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-cta {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.hero-img {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+}
