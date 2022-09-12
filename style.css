@@ -38,8 +38,8 @@ nav a:visited {
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    padding: 60px 90px;
-    gap: 15px;
+    padding: 60px 200px;
+    gap: 40px;
 }
 
 .hero-section .content-left,
@@ -64,9 +64,49 @@ nav a:visited {
     font-size: 18px;
     padding: 5px 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .hero-img {
     width: 500px;
-    height: 200px;
+    height: 300px;
     background-color: grey;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-card-container {
+    display: flex;
+    width: 75%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-img {
+    height: 125px;
+    width: 125px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
 }
