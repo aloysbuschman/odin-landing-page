@@ -109,4 +109,23 @@ nav a:visited {
 
 .card-text {
     text-align: center;
+    margin: 15px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+.quote-author {
+    font-size: 24px;
+    text-align: end;
 }
