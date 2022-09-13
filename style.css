@@ -90,6 +90,7 @@ nav a:visited {
 .info-card-container {
     display: flex;
     width: 75%;
+    margin-bottom: 70px;
 }
 
 .card {
