@@ -7,7 +7,8 @@ body {
     padding: 0;
 }
 
-header {
+header,
+footer {
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
@@ -149,4 +150,12 @@ nav a:visited {
     border: 2px solid;
     padding: 5px 20px;
     cursor: pointer;
+}
+
+
+
+.footer-text {
+    margin: 20px auto;
+    color: #E5E7EB;
+    font-size: 16px;
 }
